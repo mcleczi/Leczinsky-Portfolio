@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+</head>
+
+<body onload="plusSlides(0)" class="back">
+  <div class="text-center header">
+    <hr>
+    <h1>Media gallery display</h1>
+    <h2>Top 12 Most Populated Cities in the US</h2>
+    <hr>
+  </div>
+
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="pix/nyc1.jpg" style="width:100%">
+      <div class="text">New York City, New York, at night. (Rank #1)</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="pix/chicago3.jpg" style="width:100%">
+      <div class="text">Millennium Park and "Cloud Gate" in Chicago, Illinois. (Rank #3)</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="pix/philadelphia5.jpg" style="width:100%">
+      <div class="text">Delaware River running though Philadelphia, Pennsylvania. (Rank #5)</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+<div class="container-fluid">
+
+    <div class="card">
+      <div class="im">
+        <img src="pix/nyc1.jpg">
+      </div>
+        <hr>
+        <h5> New York City </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 1 </p>
+            <p> Population: 8,174,959 </p>
+            <p> State: New York </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/New_York_City"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/la2.jpg">
+      </div>
+        <hr>
+        <h5> Los Angeles </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 2 </p>
+            <p> Population: 3,976,000 </p>
+            <p> State: California </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Los_Angeles"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/chicago3.jpg">
+      </div>
+        <hr>
+        <h5> Chicago </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 3 </p>
+            <p> Population: 2,695,598 </p>
+            <p> State: Illinois </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Chicago"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/houston4.jpg">
+      </div>
+        <hr>
+        <h5> Houston </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 4 </p>
+            <p> Population: 2,099,451 </p>
+            <p> State: Texas </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Houston"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/philadelphia5.jpg">
+      </div>
+        <hr>
+        <h5> Philadelphia </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 5 </p>
+            <p> Population: 1,526,006 </p>
+            <p> State: Pennsylvania </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Philadelphia"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/phoenix6.jpg">
+      </div>
+        <hr>
+        <h5> Phoenix </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 6 </p>
+            <p> Population: 1,445,632 </p>
+            <p> State: Arizona </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Phoenix,_Arizona"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/SanAntonio7.jpg">
+      </div>
+        <hr>
+        <h5> San Antonio </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 7 </p>
+            <p> Population: 1,469,845 </p>
+            <p> State: Texas </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/San_Antonio"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/sandiego8.jpg">
+      </div>
+        <hr>
+        <h5> San Diego </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 8 </p>
+            <p> Population: 1,406,630</p>
+            <p> State: California </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/San_Diego"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/dallas9.jpg">
+      </div>
+        <hr>
+        <h5> Dallas </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 9 </p>
+            <p> Population: 1,317,929 </p>
+            <p> State: Texas </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Dallas"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/sanjose10.jpg">
+      </div>
+        <hr>
+        <h5> San Jose </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 10 </p>
+            <p> Population: 1,025,350 </p>
+            <p> State: California </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/San_Jose,_California"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/austin11.jpg">
+      </div>
+        <hr>
+        <h5> Austin </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 11 </p>
+            <p> Population: 947,890 </p>
+            <p> State: Texas </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Austin,_Texas"> More Info</a></button>
+    </div>
+    <div class="card">
+      <div class="im">
+        <img src="pix/jacksonville12.jpg">
+      </div>
+        <hr>
+        <h5> Jacksonville </h2>
+          <hr>
+          <div class="info">
+            <p> Rank: 12 </p>
+            <p> Population: 880,619 </p>
+            <p> State: Florida </p>
+          </div>
+          <button class="button"> <a href="https://en.wikipedia.org/wiki/Jacksonville,_Florida"> More Info</a></button>
+    </div>
+</div>
+
+<div class="video">
+  <iframe style="padding: 5px;" height="100%" width="100%" frameborder="0" src="https://www.youtube.com/embed/nrT5VN2NcpU"></iframe>
+</div>
+
+
+<div class="text-center foot">
+  <hr>
+  <h5> This site was build by Michael Leczinsky for COMM395 </h5>
+  <hr>
+</div>
+</body>
+</html>
